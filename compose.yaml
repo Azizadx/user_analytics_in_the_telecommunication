@@ -9,7 +9,7 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./telecom.sql:/docker-entrypoint-initdb.d/telecom.sql
     networks:
       - week0
 networks:
