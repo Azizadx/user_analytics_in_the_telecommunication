@@ -19,7 +19,7 @@ class Utils:
         print(df)
 
         # Return the count of dropped duplicates
-        return num_duplicates
+        return df
 
     @staticmethod
     def view_columns_with_missing_value(df):
