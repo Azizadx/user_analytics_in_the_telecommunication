@@ -48,6 +48,6 @@ setuptools.setup(
     python_requires=">=3.8",
     # Requirements
     install_requires=INSTALL_REQUIRES,
-    zip_safe=False,  # install source files not egg
-    include_package_data=True,  # copy html and friends
+    zip_safe=False,
+    include_package_data=True,
 )
