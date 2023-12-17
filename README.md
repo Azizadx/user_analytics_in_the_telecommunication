@@ -59,5 +59,5 @@ Your contributions and feedback are highly valued! Here are ways you can get inv
 - 🌟 **Contribute:** Ready to contribute to the project? Check out our [contribution guidelines](CONTRIBUTING.md) to get started. We welcome your ideas, bug fixes, and feature 
 
 
-## If you liked project or anything in here 😊
-![Alt Text](https://media.giphy.com/media/GTO6zNnYr5Wv0p8gAT/giphy.gif)
+## If you liked the project or anything in here 😊
+![Alt Text](https://media.giphy.com/media/Od0QRnzwRBYmDU3eEO/giphy.gif)
