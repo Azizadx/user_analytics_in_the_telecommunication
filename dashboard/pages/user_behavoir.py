@@ -11,8 +11,8 @@ import os
 
 def app():
     st.subheader("User Behavoir Analysis")
-    feq = pd.read_csv('../data/top_10_customer_with_frq.csv')
-    duration = pd.read_csv('../data/top_10_customer_duration.csv')
+    feq = pd.read_csv('data/top_10_customer_with_frq.csv')
+    duration = pd.read_csv('data/top_10_customer_duration.csv')
     # Create a sidebar menu
     selected_option = st.sidebar.selectbox(
         "Data Frame for Top 10 Customer ", ["Session Frequceny", "Duration"])
@@ -34,15 +34,15 @@ def app():
 
     st.subheader(
         "Distribution of Unit Sales Among Top 3 Headset Manufacturers")
-    st.image('../data/pie_chart_top_3_headset.png')
+    st.image('data/pie_chart_top_3_headset.png')
 
     st.subheader(
         "Top 10 Customers with Highest Session Duration")
-    st.image('../data/top_10_customer_highest_session.png')
+    st.image('data/top_10_customer_highest_session.png')
 
     st.subheader(
         "Correlation Heatmap for Selected Columns")
-    st.image('../data/correlation_totdl_toul_totsession.png')
+    st.image('data/correlation_totdl_toul_totsession.png')
     st.subheader(
         "Correlation Heatmap for Selected Columns")
-    st.image('../data/top_3_apps_by_10_users.png')
+    st.image('data/top_3_apps_by_10_users.png')
